@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: poppins, sans-serif;
+}
+
+.header{
+    background-color: #e2e5ec;
+    height: 90vh;
+}
+
+.nav::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.nav{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.nav-logo{
+    float: left;
+    margin:10px 0 ;
+}
+.nav-menu{
+    float: right;
+    margin: 10px 0;
+}
+
+.nav-item{
+    float: left;
+    list-style: none;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.hero{
+    padding-top: 60px;
+}
+
+.row{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+a:hover{
+    background-color:  blue;
+}
+
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.row [class^=col-]{
+    float: left;
+    transition: all 1s linear;
+}
+
+.row [class^=col-]:not(:last-child){
+    margin-right: 30px;
+}
+
+.col-1-of-2{
+    width: calc((100% - 30px) / 2);
+    padding-left: 30px;
+}
+
+.row [class^=col-]:hover{
+    outline: none;
+    border: 3px solid blue;
+}
+
+.hero-text-heading{
+    margin-bottom: 30px;
+    letter-spacing: 3px;
+    padding-right: 30px;
+}
+.hero-text-sub-head{
+}
+
+input{
+    padding: 5px;
+}
+
+.btn{
+    padding: 0 10px;
+    background-color: blue;
+    border: none;
+}
+image{
+    width: 100%;
+}

@@ -405,61 +405,6 @@ html{
 /*media quary for device width less than 480px(mobile devices)***/
 @media screen and (max-width: 900px) {
     .hero{
-        background-color: yellow;
-    }
-    .row {
-        width: 100%;
-        margin: 0 auto;
-        padding: 0 20px;
-        }
-
-    .row [class^="col-"]{
-        width: 100%;
-        margin-right: 0;
-        margin-bottom: 20px;
-
-    }
-    .row [class^=col-]:not(:last-child){
-        margin-right: 0;
-    }
-    .service-icon-circle{
-        float: none;
-        margin-bottom: 10px;
-    }
-    .service-text-content{
-        float: none;
-    }
-    .work-icon-circle{
-        float: none;
-        margin-bottom: 10px;
-    }
-    .work-text-content{
-        float: none;
-    }
-    .board-icon-circle-box{
-        float: none;
-        margin-bottom: 10px;
-    }
-    .icon-textbox{
-        float: none;
-    }
-    .footer-nav-item {
-    margin: 0 10px;
-    }
-    .footer-nav-menu {
-        float: none;
-        margin: 0 auto;
-    }
-    .footer-text {
-        float: none;
-        text-align: center;
-        margin-bottom: 10px;
-    }
-}
-/*media quary for device width less than 900px(ipad devices)***/
-@media screen and (max-width: 480px) {
-    .hero{
-        background-color: red;
         padding:50px 0;
     }
     .hero-text-heading{
@@ -508,6 +453,12 @@ html{
     .section-work{
         padding: 50px 0;
     }
+    section-work-image-container img{
+        width: 70%;
+        position: relative;
+        left: 10px;
+        bottom: 10px;
+    }
     .work-icon-circle{
         float: none;
         margin: 0 auto;
@@ -543,6 +494,118 @@ html{
     }
     .review-heading {
         margin-top: 15px;
+    }
+    .review-video-container{
+        width: 70%;
+    }
+    .footer-nav-item {
+    margin: 0 10px;
+    }
+    .footer-nav-menu {
+        float: none;
+        margin: 0 auto;
+    }
+    .footer-text {
+        float: none;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}
+/*media quary for device width less than 900px(ipad devices)***/
+@media screen and (max-width: 480px) {
+    .hero{
+        padding:50px 0;
+    }
+    .hero-text-heading{
+        margin-bottom: 30px;
+        letter-spacing: 3px;
+        padding-right: 0;
+        font-size: 50px;
+        text-align: center;
+    }
+    .row {
+	width: 100%;
+	margin: 0 auto;
+    padding: 0 20px;
+    }
+     .row [class^="col-"]{
+        width: 100%;
+        margin-right: none !important;
+        margin-bottom: 20px;
+    }
+    .section-about{
+        padding: 50px 0;
+    }
+    .about-textbox{
+        padding-left: 0;
+        text-align: center;
+    }
+    .section-services{
+        padding: 100px 0;
+    }
+    .service-icon-circle{
+        float: none;
+        margin: 0 auto;
+    }
+    .service-text-content{
+        float: none;
+        margin-bottom: 10px;
+        text-align: center;
+        width: 100%;
+    }
+    .service-text-content h5{
+        margin: 10px 0;
+    }
+    .service-container {
+        margin-bottom: 30px;
+    }
+    .section-work{
+        padding: 50px 0;
+    }
+    section-work-image-container img{
+        width: 70%;
+        position: relative;
+        left: 10px;
+        bottom: 10px;
+    }
+    .work-icon-circle{
+        float: none;
+        margin: 0 auto;
+    }
+    .work-text-content{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    .work-text-content h5{
+        margin:10px 0;
+    }
+    .gallery{
+        padding: 50px 0;
+    }
+    .section-board{
+        padding: 50px 0;
+    }
+    .board-icon-circle-box{
+        float: none;
+        margin: 0 auto
+    }
+    .board-textbox-heading {
+        text-align: center;
+    }
+    .icon-textbox{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    .icon-textbox-heading{
+        margin:10px 0;
+    }
+    .review-heading {
+        margin-top: 15px;
+    }
+    .review-video-container{
+        width: 70%;
     }
     .footer-nav-item {
     margin: 0 10px;

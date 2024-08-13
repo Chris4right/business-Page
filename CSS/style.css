@@ -282,7 +282,7 @@ html{
 .gallery-image-container img{
     width: 100%;
 }
-
+/*********************************** section-board-Area ***********/
 .section-board{
     padding: 100px 0;
 }
@@ -323,7 +323,7 @@ html{
 .icon-textbox-heading{
     margin-bottom: 5px;
 }
-
+/*********************************** section-review-Area ***********/
 .review-section{
     background-color:#e2e5ec ;
 }
@@ -359,7 +359,7 @@ html{
     margin: 0 auto;
     padding: 40px 20px;
 }
-
+/*********************************** section-footer-Area ***********/
 .footer{
     background-color: rgb(29, 27, 27);
 }
@@ -407,16 +407,110 @@ html{
     .hero{
         background-color: yellow;
     }
+    .row {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 20px;
+        }
 
     .row [class^="col-"]{
         width: 100%;
         margin-right: 0;
         margin-bottom: 20px;
+
+    }
+    .row [class^=col-]:not(:last-child){
+        margin-right: 0;
+    }
+    .service-icon-circle{
+        float: none;
+        margin-bottom: 10px;
+    }
+    .service-text-content{
+        float: none;
+    }
+    .work-icon-circle{
+        float: none;
+        margin-bottom: 10px;
+    }
+    .work-text-content{
+        float: none;
+    }
+    .board-icon-circle-box{
+        float: none;
+        margin-bottom: 10px;
+    }
+    .icon-textbox{
+        float: none;
+    }
+    .footer-nav-item {
+    margin: 0 10px;
+    }
+    .footer-nav-menu {
+        float: none;
+        margin: 0 auto;
+    }
+    .footer-text {
+        float: none;
+        text-align: center;
+        margin-bottom: 10px;
     }
 }
 /*media quary for device width less than 900px(ipad devices)***/
 @media screen and (max-width: 480px) {
     .hero{
         background-color: red;
+    }
+    .row {
+	width: 100%;
+	margin: 0 auto;
+    padding: 0 20px;
+    }
+     .row [class^="col-"]{
+        width: 100%;
+        margin-right: none;
+        margin-bottom: 20px;
+    }
+    .row [class^=col-]:not(:last-child){
+        margin-right:  0;
+    }
+    .hero-text-heading {
+    margin-bottom: 30px;
+    letter-spacing: 3px;
+    padding-right: 0;
+    font-size: 50px;
+    }
+    .service-icon-circle{
+        float: none;
+    }
+    .service-text-content{
+        float: none;
+        margin-bottom: 10px;
+    }
+    .work-icon-circle{
+        float: none;
+        margin-bottom: 10px;
+    }
+    .work-text-content{
+        float: none;
+    }
+    .board-icon-circle-box{
+        float: none;
+        margin-bottom: 10px;
+    }
+    .icon-textbox{
+        float: none;
+    }
+    .footer-nav-item {
+    margin: 0 10px;
+    }
+    .footer-nav-menu {
+        float: none;
+        margin: 0 auto;
+    }
+    .footer-text {
+        float: none;
+        text-align: center;
+        margin-bottom: 10px;
     }
 }

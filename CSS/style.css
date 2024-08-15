@@ -402,7 +402,7 @@ html{
     color: var(--primary-color);
 }
 
-/*media quary for device width less than 480px(mobile devices)***/
+/*media quary for device width less than 900px(ipad devices)***/
 @media screen and (max-width: 900px) {
     .hero{
         padding:50px 0;
@@ -417,7 +417,7 @@ html{
     .row {
 	width: 100%;
 	margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 35px;
     }
      .row [class^="col-"]{
         width: 100%;
@@ -499,19 +499,18 @@ html{
         width: 70%;
     }
     .footer-nav-item {
-    margin: 0 10px;
-    }
-    .footer-nav-menu {
-        float: none;
-        margin: 0 auto;
-    }
-    .footer-text {
-        float: none;
-        text-align: center;
-        margin-bottom: 10px;
-    }
+        margin: 0 10px;
+        }
+        .footer-nav-menu {
+            float: none;
+            margin: 0 auto;
+        }
+        .footer-text {
+            float: none;
+            margin-bottom: 20px;
+        }
 }
-/*media quary for device width less than 900px(ipad devices)***/
+/*media quary for device width less than 480px(mobile devices)***/
 @media screen and (max-width: 480px) {
     .hero{
         padding:50px 0;
